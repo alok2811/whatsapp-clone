@@ -43,6 +43,8 @@ dependencies:
   shared_preferences: ^2.0.13
   emoji_choose: ^0.0.1
   story_view: ^0.13.2
+  permission_handler: ^9.1.0
+  contacts_service: ^0.6.3
 
 
 dev_dependencies:

@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSContactsUsageDescription</key>
+    <string>This app requires contacts access to function properly.</string>
 	<key>CFBundleDisplayName</key>
 	<string>Whatsapp</string>
 	<key>CFBundleExecutable</key>
