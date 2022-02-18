@@ -1,7 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
-import 'dart:typed_data';
-
 import 'package:contacts_service/contacts_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -27,7 +24,6 @@ class _ContactListPageState extends State<ContactListPage> {
   @override
   void initState() {
     // TODO: implement initState
-
     super.initState();
   }
 
