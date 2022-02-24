@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:whatsapp/pages/camera_page.dart';
 import 'package:whatsapp/pages/chat_page.dart';
-import 'package:whatsapp/pages/my_story_view.dart';
+import 'package:whatsapp/pages/my_story_page.dart';
 import 'package:whatsapp/pages/search_page.dart';
 import 'package:whatsapp/pages/status_page.dart';
 import 'package:whatsapp/providers/home_provider.dart';
+
+import 'call_page.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -68,12 +70,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
               ),
           ],),
         ),
-        body:  const TabBarView(
+        body:   const TabBarView(
           children: [
           CameraPage(),
           ChatPage(),
           StatusPage(),
-           Center(child: Text('Calls'),),
+          CallPage(),
           ],
           //controller: _tabController,
         ),

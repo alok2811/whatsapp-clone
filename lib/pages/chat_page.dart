@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:whatsapp/pages/contactlist_page.dart';
-import 'package:whatsapp/pages/message_view.dart';
+import 'package:whatsapp/pages/message_page.dart';
 
 class ChatPage extends StatelessWidget {
   const ChatPage({Key? key}) : super(key: key);
@@ -34,7 +34,7 @@ class ChatPage extends StatelessWidget {
               trailing: const Text("10:47 AM"),
               subtitle: const Text('Hello, World!'),
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (builder) => MessageView(name: 'Alok Dubey')));
+                Navigator.push(context, MaterialPageRoute(builder: (builder) => const MessageView(name: 'Alok Dubey')));
               },
             ),
            const Divider(),

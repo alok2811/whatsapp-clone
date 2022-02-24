@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:whatsapp/pages/my_story_view.dart';
+import 'package:whatsapp/pages/my_story_page.dart';
 
 class StatusPage extends StatelessWidget {
   const StatusPage({Key? key}) : super(key: key);

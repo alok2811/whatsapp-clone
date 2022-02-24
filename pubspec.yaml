@@ -45,6 +45,7 @@ dependencies:
   story_view: ^0.13.2
   permission_handler: ^9.1.0
   contacts_service: ^0.6.3
+  call_log: ^3.2.2
 
 
 dev_dependencies:

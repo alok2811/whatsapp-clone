@@ -2,8 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:provider/src/provider.dart';
-import 'package:whatsapp/pages/home_page.dart';
-import 'package:whatsapp/pages/login_page.dart';
 import 'package:whatsapp/providers/splash_provider.dart';
 
 class SplashPage extends StatefulWidget {
