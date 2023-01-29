@@ -8,28 +8,28 @@ class HomeProvider with ChangeNotifier{
       context: context,
       items:  [
         PopupMenuItem<String>(
-            onTap: (){},
-            child: const Text('New group'), value: 'group'),
+            onTap: (){}, value: 'group',
+            child: const Text('New group')),
 
         PopupMenuItem<String>(
-            onTap: (){},
-            child: const Text('New broadcast'), value: 'broadcast'),
+            onTap: (){}, value: 'broadcast',
+            child: const Text('New broadcast')),
 
         PopupMenuItem<String>(
-            onTap: (){},
-            child: const Text('Linked Device'), value: 'linkDevice'),
+            onTap: (){}, value: 'linkDevice',
+            child: const Text('Linked Device')),
 
         PopupMenuItem<String>(
-            onTap: (){},
-            child: const Text('Starred message'), value: 'starredMessage'),
+            onTap: (){}, value: 'starredMessage',
+            child: const Text('Starred message')),
 
         PopupMenuItem<String>(
-            onTap: (){},
-            child: const Text('Payment'), value: 'payment'),
+            onTap: (){}, value: 'payment',
+            child: const Text('Payment')),
 
         PopupMenuItem<String>(
-            onTap: (){},
-            child: const Text('Settings'), value: 'settings'),
+            onTap: (){}, value: 'settings',
+            child: const Text('Settings')),
 
       ],
       elevation: 8.0,

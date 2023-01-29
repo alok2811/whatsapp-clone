@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:whatsapp/pages/camera_page.dart';
 import 'package:whatsapp/pages/chat_page.dart';
-import 'package:whatsapp/pages/my_story_page.dart';
 import 'package:whatsapp/pages/search_page.dart';
 import 'package:whatsapp/pages/status_page.dart';
 import 'package:whatsapp/providers/home_provider.dart';
@@ -22,9 +21,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
   @override
   Widget build(BuildContext context) {
 
-    double _width = MediaQuery.of(context).size.width,
-        cameraWidth = _width/24,
-        yourWidth = (_width - cameraWidth)/5;
+    double width = MediaQuery.of(context).size.width,
+        cameraWidth = width/24,
+        yourWidth = (width - cameraWidth)/5;
 
     return DefaultTabController(
       length: 4,
@@ -46,27 +45,27 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
             isScrollable: true,
             tabs: [
               SizedBox(
-                child: const Tab(icon: Icon(Icons.camera_alt, color: Colors.white,)),
                 width: cameraWidth,
+                child: const Tab(icon: Icon(Icons.camera_alt, color: Colors.white,)),
               ),
               SizedBox(
+                width: yourWidth,
                 child: const Tab(
                   text: "CHATS",
 
                 ),
-                width: yourWidth,
               ),
               SizedBox(
+                width: yourWidth,
                 child: const Tab(
                   text: "STATUS",
                 ),
-                width: yourWidth,
               ),
               SizedBox(
+                width: yourWidth,
                 child: const Tab(
                   text: "CALLS",
                 ),
-                width: yourWidth,
               ),
           ],),
         ),

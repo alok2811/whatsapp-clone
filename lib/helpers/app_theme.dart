@@ -78,7 +78,7 @@ ThemeData myTheme = ThemeData(
   primarySwatch: primaryMaterialColor,
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      primary: const Color(0xff265e56),
+      backgroundColor: const Color(0xff265e56),
     ),
   ),
 );
